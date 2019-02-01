@@ -1,4 +1,4 @@
-# Test_School
+# Bot Script for School [README]
 
 This bot is for school and school only.
 
