@@ -1,0 +1,254 @@
+import asyncio
+import time
+
+print ("⏺️ Please wait... The Bot Is Booting Up")
+time.sleep(15)
+print ("⏺️ Updating commands...")
+time.sleep(5)
+print ("⏺️ Inserting Text...")
+time.sleep(6)
+print ("Starting Bots Operating System...")
+time.sleep(10)
+
+print (" ")
+
+print ("✅ The Bot Has successfully Booted up")
+time.sleep(5)
+
+# ^ Loading screen made and developed by Michael Rose. ^
+
+print (" ")
+print (" ")
+print ("        Please Login To Continue.")
+print (" ")
+print (" ")
+
+login = str(input("Please enter your username to continue: "))
+print (" ")
+print ("Thank you", login)
+print (" ")
+print (" ")
+firstname = str(input("Please Enter Your First Name: "))
+time.sleep(2)
+surname = str(input("Please Enter Your Surname: "))
+time.sleep(2)
+print (" ")
+print ("Logging in...")
+print (" ")
+time.sleep(10)
+print ("Loading User Settings Default Options...")
+time.sleep(7)
+print (" ")
+print (" ")
+
+# Login System to log in into the bot. By Michael.
+
+print ("Hello,", firstname,surname, "I'm Spencer the ChatBot!")
+
+print (" ")
+time.sleep(5)
+
+print ("We are setting a few things beore you begin!")
+time.sleep(15)
+print (" ")
+print (" ")
+
+Default = str(input("        Would you like to run the bot in default settings? (Y/N) "))
+print (" ")
+time.sleep(5)
+print ("Saving information...")
+print (" ")
+print (" ")
+time.sleep(5)
+print ("Installing the latest updates...")
+print(" ")
+print(" ")
+time.sleep(10)
+print ("    0%")
+print(" ")
+time.sleep(5)
+print ("    25%")
+print(" ")
+time.sleep(5)
+print ("    37%")
+print(" ")
+time.sleep(5)
+print ("    41%")
+print(" ")
+time.sleep(7)
+print ("    57%")
+print(" ")
+time.sleep(7)
+print ("    69%")
+print(" ")
+time.sleep(10)
+print ("    74%")
+print(" ")
+time.sleep(5)
+print ("    80%")
+print (" ")
+time.sleep(5)
+print ("    93%")
+print (" ")
+time.sleep(5)
+print ("    98%")
+print (" ")
+time.sleep(5)
+print ("    99.9%")
+print (" ")
+time.sleep(5)
+print ("    100%")
+print (" ")
+time.sleep(5)
+print ("Configuring System logs...")
+print(" ")
+time.sleep(5)
+print ("Updates Completed")
+print(" ")
+
+# Installs updates but also setting up the Operating System.
+
+print (" ")
+print (" ")
+time.sleep(5)
+print ("Starting Spencer...")
+print (" ")
+print (" ")
+time.sleep(10)
+
+print ("Hello", firstname, surname, "!")
+
+Feeling = str(input("How Are You Feeling Today: "))
+print (" ")
+print ("Great! Have a Fantastic Day!")
+time.sleep(3)
+print (" ")
+
+print ("Let's get to know each other!")
+time.sleep(2)
+# Asks how are you feeling today.
+print (" ")
+
+print ("1st Question,", firstname) , (".")
+time.sleep(3)
+print (" ")
+
+print ("What's your favourite movie?")
+awnser = input ("Awnser: ").upper()
+
+if awnser == "Harry Potter":
+
+    print ("Correct Awnser, Computer Science is Amazing!")
+
+else:
+
+    print ("Oh dear, I've never heard of that film before", firstname, ".")
+time.sleep(3)
+print (" ")
+
+# Asks what is your favourite movie and bot replys saying it likes the same movie as the user.
+print ("2nd Question,")
+time.sleep(3)
+print (" ")
+
+print ("What kind of Game you like the most?")
+Game = input ("Awnser: ").upper()
+
+if Game == "FORTNITE":
+
+    print ("Nice, I like destroying Windows 10 better. :)")
+
+else:
+
+    print ("Oh dear, I've never heard of that game before", firstname, ".")
+
+print (" ")
+print (" ")
+time.sleep(3)
+print (" ")
+# Asks your favourite game and bot replies with the same commmand as the user.
+
+print ("3rd Question,")
+time.sleep(2)
+print (" ")
+
+print ("What food do you like the most? ")
+Food = input ("Awnser: ").upper()
+
+if Food == "KFC":
+
+    print ("Sweet, I like Binary Code better!")
+
+else:
+
+    print ("Oh dear, I've never heard of that type of food before", firstname, ".")
+
+print (" ")
+print (" ")
+
+time.sleep(2)
+# Asks your favourite food and bot replies with the same option.
+
+print ("4th Question,")
+time.sleep(3)
+print (" ")
+
+print ("Do you like Computer Science?")
+awnser = input ("Awnser: ").upper()
+
+if awnser == "YES":
+
+    print ("Correct Awnser, Computer Science is Amazing!")
+
+else:
+
+    print ("cOMPUTER Science is amazing why say no >:(")
+
+
+# Asks if you like the bot or not with a decision.
+
+print (" ")
+print (" ")
+print ("5th Question,")
+print (" ")
+
+Inprove = str(input("Is there anything I can improve on and why? "))
+time.sleep(4)
+print ("Thanks", firstname,surname, "I hope that your request helps me to improve!")
+time.sleep(4)
+print (" ")
+print ("Updating Logs...")
+time.sleep(5)
+print (" ")
+# Updating the logs.
+
+Exit = str(input("Please Press ENTER to finish the [logs/test] "))
+# Asks user to press ENTER to finish off the test.
+
+print (" ")
+time.sleep(2)
+print ("Thank you for awnsering my questions and hope you have a fantastic day,", firstname, surname, "!")
+time.sleep(2)
+print ("-------------")
+
+print ("Shutting Down Bot...")
+print (" ")
+print (" ")
+time.sleep(10)
+print ("This bot was made on the 11/01/2019 at 11:25PM. If you have any futher questions make sure to awnser QUESTION 5.")
+# Log out of the bot and finish the script.
+
+
+num = 1
+if num > 0:
+    print(num, "is a positive number.")
+
+num = -1
+if num > 0:
+    print(num, "is a positive number.")
+# Asks user to do a random sum I.E 12+4 then the bot says >>> 16.
+
+
+
+
+# Bot made 11/01/2019 at 11:25PM by Michael Rose.
